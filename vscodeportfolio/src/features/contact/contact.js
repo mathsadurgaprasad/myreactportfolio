@@ -15,7 +15,6 @@ export default function Contact() {
   const [content, setContent] = useState("");
   const [loading, setLoading] = useState(false);
   const [isAlert, setAlert] = useState(false);
-  const [contentFull, setContentFull] = useState(true);
   const [alertMessege, setAlertMessege] = useState("");
   const [error, setIserror] = useState("success");
 
@@ -58,11 +57,6 @@ export default function Contact() {
       setLoading(false);
     }
   };
-  useEffect(() => {
-    const allFileds = Object.values(FormValues).every((value) => value.trim());
-    console.log(allFileds);
-    setContentFull(!allFileds);
-  });
 
   return (
     <>
@@ -185,11 +179,7 @@ export default function Contact() {
               ></textarea>
             </div>
             <div className={styles.submitButton}>
-              <button
-                disabled={contentFull}
-                type="submit"
-                onClick={(e) => handleFormSubmit(e)}
-              >
+              <button type="submit" onClick={(e) => handleFormSubmit(e)}>
                 SUBMIT
               </button>
             </div>
