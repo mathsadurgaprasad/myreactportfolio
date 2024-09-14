@@ -1,0 +1,22 @@
+.skillcontainer {
+  overflow-y: auto;
+  color: white;
+  padding: 60px 40px 100px 40px;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #24292e;
+}
+.card {
+  background-color: rgb(249, 130, 108);
+  /* background-color: white; */
+  box-shadow: 1px 1px 10px rgb(61, 61, 61);
+  padding: 20px;
+  border-radius: 3px;
+  color: black;
+  cursor: pointer;
+}
+.allSkills {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}

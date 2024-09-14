@@ -1,0 +1,27 @@
+.sideBarContainer {
+  margin-top: 0px;
+  width: auto;
+  display: inline-flex;
+  /* height: 100vh; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a2f35;
+  min-width: 0;
+}
+.sideNavbar {
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+.sideNavbar div {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0 8px 0;
+}
+.sideNavbar div:hover {
+  background-color: rgb(36, 41, 46);
+}
+.active {
+  border-right: 1px solid orange;
+}
+/* .sideNavbar div Link; */

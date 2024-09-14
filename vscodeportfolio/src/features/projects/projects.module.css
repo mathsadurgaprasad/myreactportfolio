@@ -1,0 +1,54 @@
+.projectscontainer{
+    padding: 30px 40px 30px 40px;
+    font-family: "JetBrains Mono", monospace;
+}
+.eachproject img{
+    width: 100%;
+    border-radius: 10px;
+    /* border: 1px solid gray; */
+
+}
+.projects{
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.eachprojectdescription{
+    color: white;
+    padding: 20px;
+}
+.eachproject{
+    background-color: #1f2428;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0;
+    transition: 0.5s;
+    
+}
+.eachproject:hover{
+    box-shadow: 1px 1px 10px rgb(71, 71, 71);
+}
+.paradescription{
+    color: white;
+    margin-top: 5px;
+    font-size: 12.8px;
+}
+.visitwebsitebutton{
+    margin-top: 20px;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(249, 130, 108);
+    background: transparent;
+}
+.visitwebsitebutton:hover{
+    background-color: rgb(249, 130, 108);
+    color: black;
+    cursor: pointer;
+
+}

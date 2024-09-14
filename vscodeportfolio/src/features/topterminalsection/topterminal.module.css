@@ -1,0 +1,63 @@
+/* for mobile phone */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-terminal-section {
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 36, 40);
+  border-radius: 5px 5px 0 0;
+  /* margin: 2px; */
+  padding: 4px;
+  justify-content: space-between;
+}
+.vscodelogo {
+  display: flex;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}
+.topmenuoption {
+  display: none;
+  color: white;
+}
+.topmenuoption p {
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 10px;
+  color: white;
+}
+.topnamesection p {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.topcloseminimsection {
+  display: flex;
+}
+.topcloseminimsection span {
+  width: 10px;
+  margin: 1px;
+  height: 10px;
+
+  border-radius: 50px;
+}
+.topcloseminimsection span:nth-child(1) {
+  background-color: rgb(241, 250, 140);
+}
+.topcloseminimsection span:nth-child(2) {
+  background-color: rgb(80, 250, 123);
+}
+.topcloseminimsection span:nth-child(3) {
+  background-color: rgb(255, 85, 85);
+}
+
+@media (min-width: 900px) {
+  .topmenuoption {
+    display: flex;
+    color: white;
+  }
+}

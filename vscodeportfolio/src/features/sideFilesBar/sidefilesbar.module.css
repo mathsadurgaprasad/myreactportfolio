@@ -1,0 +1,65 @@
+.side-files-bar {
+  background-color: rgb(31, 36, 40);
+  width: 150px;
+  display: none;
+}
+.explorer {
+  color: rgb(225, 228, 232);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14.4px;
+  padding: 10px;
+  font-weight: 300;
+}
+.expandsection {
+  color: white;
+  display: flex;
+  padding-left: 10px;
+  align-items: end;
+  justify-content: flex-start;
+  margin-top: 20px;
+  font-size: 12.8px;
+}
+.expandsection span {
+  font-size: 4px;
+}
+.expandsection p {
+  margin-left: 10px;
+  font-weight: 700;
+}
+.portfoliofiles {
+  width: 100%;
+}
+.filenames {
+  width: 100%;
+  color: rgb(225, 228, 232);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.filenames div {
+  display: flex;
+  width: 100%;
+  margin-right: 10px;
+  padding: 3px 0 3px 0;
+}
+.filenames div img {
+  width: 10px;
+  height: 10px;
+  padding: 0 4px 0 30px;
+}
+.filenames div:hover {
+  background-color: rgb(38, 43, 48);
+  cursor: pointer;
+}
+.filenames div p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+@media (min-width: 600px) {
+  .side-files-bar {
+    /* padding: 10px; */
+    background-color: rgb(31, 36, 40);
+    width: 150px;
+    display: block;
+  }
+}

@@ -1,0 +1,93 @@
+.homeContainer {
+  background-color: #24292e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px 30px 40px;
+  /* height: 100vh; */
+  height: 100%;
+}
+.mindisplyhello{
+  display: none;
+}
+.circles {
+  margin-right: 20px;
+}
+.homenameandAll {
+  font-family: "JetBrains Mono", monospace;
+  color: whitesmoke;
+  margin-bottom: 50px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+.typing-container {
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensures that the text does not overflow */
+  white-space: nowrap; /* Prevents wrapping */
+  border-right: 4px solid #000; /* Creates the blinking cursor effect */
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f9826c;
+  }
+}
+.btn2 {
+  padding: 8px;
+  color: white;
+  margin-right: 8px;
+  background: transparent;
+  border: 3px solid #f9826c;
+  font-size: 16px;
+  transition: 0.5s;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #f9826c;
+  color: white;
+  padding: 8px;
+  margin-right: 8px;
+
+  border: 3px solid #f9826c;
+  font-size: 16px;
+  transition: 0.5s;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  box-shadow: 2px 2px 5px rgb(81, 80, 80);
+}
+
+@media (min-width: 900px) {
+  .homeContainer {
+    flex-direction: row;
+  }
+  .homenameandAll {
+    text-align: start;
+  }
+  .mindisplyhello{
+    display: inline-block;
+  }
+}

@@ -1,0 +1,18 @@
+.about-content-details {
+  overflow-y: auto;
+  color: white;
+  padding: 60px 40px 100px 40px;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #24292e;
+  /* height: 100%; */
+}
+.aboutHeading {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.aboutText {
+  font-size: 28px;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+}
